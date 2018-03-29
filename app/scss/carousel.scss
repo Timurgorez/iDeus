@@ -9,6 +9,7 @@
 	overflow: hidden;
 	position: relative;
 	padding: 0 78px;
+	
 
 }
 .carousel-element{
@@ -18,6 +19,18 @@
 	position: relative;
 	margin-top: 10px;
 	text-align: center;
+	&>p{
+		color: #fff;
+		margin-top: 5px;
+		margin: 0;
+		padding: 0;
+		line-height: 1;
+		margin-top: 15px;
+	}
+	span{
+		color: #fff;
+		font-size: 14px;
+	}
 }
 
 
