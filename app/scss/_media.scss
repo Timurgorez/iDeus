@@ -1,0 +1,110 @@
+﻿@import "vars";
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	/**/
+	#carousel{
+		width: 782px;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	/**/
+	#carousel{
+		width: 444px;
+	}
+	.location {
+	    width: 78%;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	/**/
+	
+
+}
+@media only screen and (max-width : 668px) {
+	.carusel-img{
+		padding-right: 0;
+		margin: 0 auto;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	/**/
+	.prev{
+		width: 40px;
+	}
+	.next{
+		width: 40px;
+	}
+	#content-wrapper{
+		padding: 0;
+	}
+	#carousel {
+    	width: 352px;
+	}
+	#carousel ul li:first-child {
+    	margin-left: -36px;
+	}
+	.booking-location{
+		width: 50%;
+	}
+	.calendar{
+		width: 50%;
+	}
+	.booking-check label{
+		margin-right: 0;
+	}
+	.carusel-text {
+		margin: 0;
+		padding-left: 15px;
+	}
+	.carusel-img{
+		padding-bottom: 0;
+	}
+	
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	/**/
+}
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	/**/
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	/**/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	/**/
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	/**/
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+	/**/
+}
