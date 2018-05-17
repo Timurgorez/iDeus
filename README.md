@@ -1,3 +1,5 @@
+https://timurgorez.github.io/iDeus/dist/
+
 <h1>Вызовы</h1>
 <p><strong>npm i</strong> -- устанавливаем npm</p>
 <p><strong>bower i</strong> -- устанавливаем зависимости bower(jquery,bootstrap и др.)</p>
